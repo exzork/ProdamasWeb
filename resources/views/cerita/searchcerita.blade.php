@@ -3,7 +3,7 @@
 @section('cerita', 'active')
 
 @section('head')
-    <link rel="stylesheet" href="css/cerita.css">
+    <link rel="stylesheet" href="{{asset('css/cerita.css')}}">
     <style>
         @media screen and (max width: 768px) {}
 

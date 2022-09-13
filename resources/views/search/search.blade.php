@@ -2,8 +2,8 @@
 @section('beranda', 'active')
 @section('title', 'Beranda')
 @section('head')
-    <link rel="stylesheet" href="css/beranda.css">
-    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="{{asset('css/beranda.css')}}">
+    <link rel="stylesheet" href="{{asset('css/hover.css')}}">
     <style>
         .carousel-img {
             object-fit: cover;

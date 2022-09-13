@@ -5,7 +5,7 @@
 @section('title', 'Bidang Prodamas')
 
 @section('head')
-    <link rel="stylesheet" href="css/bidang.css">
+    <link rel="stylesheet" href="{{asset('css/bidang.css')}}">
 @endsection
 
 @section('content')

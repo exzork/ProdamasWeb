@@ -17,7 +17,7 @@
     <title>Prodamas Plus</title>
 
     <!--icon-->
-    <link href="img/logoprodamas.png" rel="icon" />
+    <link href="{{asset('img/logoprodamas.png')}}" rel="icon" />
 
     <!--Goofle Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,7 +32,7 @@
      href="media.css" title="Default Styles" media="screen">-->
 
     <!--CSS-->
-    <link rel="stylesheet" href="css/tuliscerita.css">
+    <link rel="stylesheet" href="{{asset('css/tuliscerita.css')}}">
     <script src="https://cdn.ckeditor.com/ckeditor5/11.0.1/classic/ckeditor.js"></script>
 
 </head>
@@ -178,7 +178,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/header-tulis-cerita.png);
+    background-image: url({{asset('/img/header-tulis-cerita.png')}});
     background-size: cover;
     text-align: left;
     text-shadow: 5px 5px 10px #4d148c;
@@ -192,7 +192,7 @@
     background-size: 100% 100%;
     }
     </style>
-    
+
   </body>
 </html>
 @endsection

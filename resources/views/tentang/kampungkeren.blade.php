@@ -5,14 +5,14 @@
 @section('title', 'Kampung Keren')
 
 @section('head')
-    <link rel="stylesheet" href="css/kampung.css">
+    <link rel="stylesheet" href="{{asset('css/kampung.css')}}">
     <style>
         .banner {
             height: 90vh;
             width: 100%;
             justify-content: center;
             align-items: center;
-            background: url(../img-tentang/header-kampung-keren.png);
+            background: url({{asset('/img-tentang/header-kampung-keren.png')}});
             background-size: cover;
             background-position: center;
             text-align: left;
@@ -180,7 +180,7 @@
             <h2 class="h4 font-italic mb-4">Kampung Herbal</h2>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="img-tentang/herbal.JPG" alt="kampung-herbal" class="w-100 mb-4 border border-md border-black shadow-md">
+                    <img src="{{asset('img-tentang/herbal.JPG')}}" alt="kampung-herbal" class="w-100 mb-4 border border-md border-black shadow-md">
                 </div>
                 <div class="col-md-6">
                     <p style="font-family: Montserrat, sans-serif;"> Terletak di Kelurahan Mojoroto, Kecamatan Mojoroto, Kampung Herbal memiliki
@@ -205,7 +205,7 @@
             <h2 class="h4 font-italic mb-4">Kampung Wisata Air Sumber Banteng</h2>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="img-tentang/wisata air.JPG" alt="kampung-wisata-air" class="w-100 mb-4 border border-md border-white shadow-sm">
+                    <img src="{{asset('img-tentang/wisata air.JPG')}}" alt="kampung-wisata-air" class="w-100 mb-4 border border-md border-white shadow-sm">
                 </div>
                 <div class="col-md-6">
                     <p class="text-kampung" style="font-family: Montserrat, sans-serif;"> Terletak di Kelurahan Mojoroto, Kecamatan Mojoroto, Kampung Herbal memiliki
@@ -226,7 +226,7 @@
             <h2 class="h4 font-italic mb-4">Kampung Pecut</h2>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="img-tentang/Pecut.JPG" alt="kampung-pecut" class="w-100 mb-4 border border-md border-white shadow-sm">
+                    <img src="{{asset('img-tentang/Pecut.JPG')}}" alt="kampung-pecut" class="w-100 mb-4 border border-md border-white shadow-sm">
                 </div>
                 <div class="col-md-6">
                     <p class="text-kampung" style="font-family: Montserrat, sans-serif;"> Di Kelurahan Kemasan, Kecamatan Kota., kita bisa menyaksikan pertunjukan Pecut Samandiman khas kediri.
@@ -246,7 +246,7 @@
             <h2 class="h4 font-italic mb-4">Kampung Tahu</h2>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="img-tentang/tahukediri.jpg" alt="kampung-tahu" class="w-100 mb-4 border border-md border-white shadow-sm">
+                    <img src="{{asset('img-tentang/tahukediri.jpg')}}" alt="kampung-tahu" class="w-100 mb-4 border border-md border-white shadow-sm">
                 </div>
                 <div class="col-md-6">
                     <p class="text-kampung" style="font-family: Montserrat, sans-serif;"> Kelurahan Tinalan, Kecamatan Pesantren menjadi sentra pembuatan tahu takwa sejak puluhan tahun lalu.
@@ -266,7 +266,7 @@
             <h2 class="h4 font-italic mb-4">Kampung Winner</h2>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="img-tentang/winner.JPG" alt="kampung-winner" class="w-100 mb-4 border border-md border-white shadow-sm">
+                    <img src="{{asset('img-tentang/winner.JPG')}}" alt="kampung-winner" class="w-100 mb-4 border border-md border-white shadow-sm">
                 </div>
                 <div class="col-md-6">
                     <p class="text-kampung" style="font-family: Montserrat, sans-serif;"> Terletak di Kelurahan Kampung Dalem, Kecamatan Kota, Kampung Winner menawarkan berbagai
@@ -286,7 +286,7 @@
             <h2 class="h4 font-italic mb-4">Kampung Tenun Ikat</h2>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="img-tentang/tenun.JPG" alt="kampung-tenun" class="w-100 mb-4 border border-md border-white shadow-sm">
+                    <img src="{{asset('img-tentang/tenun.JPG')}}" alt="kampung-tenun" class="w-100 mb-4 border border-md border-white shadow-sm">
                 </div>
                 <div class="col-md-6">
                     <p class="text-kampung" style="font-family: Montserrat, sans-serif;"> Kampung Tenun Ikat yang terletak di Kelurahan Bandar Kidul, kecamatan Pesantren ini
@@ -308,7 +308,7 @@
             <h2 class="h4 font-italic mb-4">Kampung Seni</h2>
             <div class="row">
                 <div class="col-lg-5">
-                    <img src="img-tentang/kampungseni2.jpg" alt="kampung-seni" class="w-100 mb-4 border border-md border-white shadow-sm">
+                    <img src="{{asset('img-tentang/kampungseni2.jpg')}}" alt="kampung-seni" class="w-100 mb-4 border border-md border-white shadow-sm">
                 </div>
                 <div class="col-md-6">
                     <p class="text-kampung" style="font-family: Montserrat, sans-serif;">kampung Seni berlokasi di Kelurahan Ringin Anom, Kecamatan Kota. Di sini kita bisa
@@ -326,8 +326,8 @@
         <!--akhir konten kampung keren-->
         {{-- </div>
             </div>
-            </div> 
-            
+            </div>
+
         </div> --}}
     </div>
 @endsection

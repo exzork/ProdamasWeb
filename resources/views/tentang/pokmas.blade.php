@@ -57,7 +57,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 py-5">
-                        <img src="img/pokmas.jpg" class="img-fluid rounded-3">
+                        <img src="{{asset('img/pokmas.jpg')}}" class="img-fluid rounded-3">
                     </div>
                     <div class="col-md-6 py-5">
                         {{-- <h1 class="text-center mb-5">Tentang Prodamas</h1> --}}

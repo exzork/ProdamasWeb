@@ -2,9 +2,9 @@
 @section('beranda', 'active')
 @section('title', 'Beranda')
 @section('head')
-    <link rel="stylesheet" href="css/beranda.css">
-    <link rel="stylesheet" href="css/hover.css">
-    <link rel="stylesheet" href="css/titleAnimation.css">
+    <link rel="stylesheet" href="{{asset('css/beranda.css')}}">
+    <link rel="stylesheet" href="{{asset('css/hover.css')}}">
+    <link rel="stylesheet" href="{{asset('css/titleAnimation.css')}}">
     <style>
         .carousel-img {
             object-fit: cover;
@@ -51,7 +51,7 @@
             @foreach ($carousels as $key => $carousel)
             <div class="carousel-item @if ($key == 0) {{"active"}}
             @endif">
-                <img src="{{ 'carouselProd/'. $carousel->foto }}" class="d-block w-100 carousel-img" alt="..." />
+                <img src="{{ asset('carouselProd/'. $carousel->foto) }}" class="d-block w-100 carousel-img" alt="..." />
             </div>
             @endforeach
             {{-- <div class="carousel-item active">

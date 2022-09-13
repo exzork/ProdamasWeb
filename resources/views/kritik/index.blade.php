@@ -1,7 +1,7 @@
 @extends('layouts.desain')
 @section('content')
     <!DOCTYPE html>
-    <html lang="en"> 
+    <html lang="en">
 
     <head>
         <!-- Required meta tags -->
@@ -27,27 +27,27 @@
     </head>
 
     <body>
-        
+
         <section style="margin-top: 80px;">
             <center>
             <nav class=section>
                 <div class= center>
-                    <h5 style="text-align: left">Formulir Kritik & Saran</h5>   
+                    <h5 style="text-align: left">Formulir Kritik & Saran</h5>
                 </div>
             </nav>
         </center>
         </section>
-        
+
 
 
         <!--kritik form-->
         <center>
         <div class="card-body">
-                        
+
             @if(Session::has('success'))
             <div class="alert alert-success" style="
-                position:absolute; 
-                top: 165px; 
+                position:absolute;
+                top: 165px;
                 margin: auto
                 width: 100%;
                 height: 60px;
@@ -58,10 +58,10 @@
                     Session::forget('success');
                 @endphp
             </div>
-        
+
             @endif
             <form method="POST" action="{{ route('contact-form.store') }}">
-                  
+
                 {{ csrf_field() }}
                 <div class="row">
                     <div >
@@ -102,7 +102,7 @@
                             @if ($errors->has('message'))
                                 <span class="text-danger">{{ $errors->first('message') }}</span>
                             @endif
-                        </div>  
+                        </div>
                     </div>
                 </div>
                 <br>
@@ -112,11 +112,10 @@
             </form>
         </div>
     </center>
-    
+
         <!--end kritik form-->
-       
+
         <!-- link js-->
-        <script src="script.js"></script>
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -133,4 +132,4 @@
 @endsection
 
 
-   
+

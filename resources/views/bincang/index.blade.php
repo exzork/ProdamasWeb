@@ -22,7 +22,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
             <!--CSS-->
-            <link rel="stylesheet" href="css/bincang.css">
+            <link rel="stylesheet" href="{{asset('css/bincang.css')}}">
 
     </head>
 
@@ -62,11 +62,11 @@
                                                     <div class="wrap-input200">
                                                         <p id="p-email">Nama</p>
                                                         <input type="nama" id="email" name="email" class="form-control" placeholder="Masukkan Nama Lengkap" required />
-                                                        
+
                                                     </div>
                                                     <div class="wrap-input200">
                                                             <p id="p-email">No.Telp</p>
-                                                            <input type="no" id="email" name="email" class="form-control" placeholder="Masukkan No.Telp" required />        
+                                                            <input type="no" id="email" name="email" class="form-control" placeholder="Masukkan No.Telp" required />
                                                     </div>
                                                     <div class="wrap-input200">
                                                         <p id="p-email">E-mail</p>
@@ -76,7 +76,7 @@
                                                         <p id="p-email">Kritik & Saran</p>
                                                         <textarea id="message" name="message" class="form-control" rows="6" placeholder="Tuliskan kritik atau saran" required></textarea>
                                                     </div>
-                                                    
+
                                                 </form>
                                             </div>
                                             <!--div modal body-->
@@ -93,7 +93,7 @@
                                 </div>
                             </div>
 
-                            
+
                             <!-- popup kritik -->
                             <div class="col-md-6">
                                 <button type="button" class="kritik"  data-bs-toggle="modal" data-bs-target="#exampleModalKritik">
@@ -113,23 +113,23 @@
                                                     <div class="wrap-input200">
                                                         <p id="p-email">Nama</p>
                                                         <input type="text" id="nama" name="email" class="form-control" placeholder="Masukkan Nama Lengkap" required/>
-                                                        
+
                                                     </div>
                                                     <div class="wrap-input200">
                                                             <p id="p-email">No.Telp</p>
                                                             <input type="text" id="no" name="telp" class="form-control" placeholder="Masukkan No.Telp" required />
-                                                            
+
                                                         </div>
                                                     <div class="wrap-input200">
                                                         <p id="p-email">E-mail</p>
                                                         <input type="text" id="email" name="email" class="form-control" placeholder="Masukkan E-mail" required />
-                                                            
+
                                                     </div>
                                                     <div class="wrap-input100">
                                                         <p id="p-email">Kritik & Saran</p>
                                                         <textarea id="message" name="message" class="form-control" rows="6" placeholder="Tuliskan kritik atau saran" required></textarea>
                                                     </div>
-                                                    
+
                                                 </form>
                                             </div>
                                             <!--div modal body-->
@@ -162,7 +162,7 @@
             <div class="card-group" style="padding-bottom:150px; padding-left: 78px; padding-right: 65px; ">
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="img/artikel1.jpeg" alt="" class="card-img-top" />
+                        <img src="{{asset('img/artikel1.jpeg')}}" alt="" class="card-img-top" />
                         <div class="card-body">
                             <a href="article"><h4 class="card-title" style="text-decoration: none">
                                 The Movie Hidden Figures Through the Lens of Feminist
@@ -173,7 +173,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="img/article3.png" alt="" class="card-img-top" />
+                        <img src="{{asset('img/article3.png')}}" alt="" class="card-img-top" />
                         <div class="card-body">
                             <a href="article"><h4 class="card-title" style="text-decoration: none">
                                 The Movie Hidden Figures Through the Lens of Feminist
@@ -184,7 +184,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="img/artikel1.jpeg" alt="" class="card-img-top" />
+                        <img src="{{asset('img/artikel1.jpeg')}}" alt="" class="card-img-top" />
                         <div class="card-body">
                         <a href="article"><h4 class="card-title" style="text-decoration: none">
                                 The Movie Hidden Figures Through the Lens of Feminist
@@ -196,7 +196,7 @@
 
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="img/artikel1.jpeg" alt="" class="card-img-top" />
+                        <img src="{{asset('img/artikel1.jpeg')}}" alt="" class="card-img-top" />
                         <div class="card-body">
                         <a href="article"><h4 class="card-title" style="text-decoration: none">
                                 The Movie Hidden Figures Through the Lens of Feminist
@@ -207,7 +207,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="img/article3.png" alt="" class="card-img-top" />
+                        <img src="{{asset('img/article3.png')}}" alt="" class="card-img-top" />
                         <div class="card-body">
                         <a href="article"><h4 class="card-title" style="text-decoration: none">
                                 The Movie Hidden Figures Through the Lens of Feminist
@@ -218,7 +218,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card">
-                        <img src="img/artikel1.jpeg" alt="" class="card-img-top" />
+                        <img src="{{asset('img/artikel1.jpeg')}}" alt="" class="card-img-top" />
                         <div class="card-body">
                         <a href="article"><h4 class="card-title" style="text-decoration: none">
                                 The Movie Hidden Figures Through the Lens of Feminist
@@ -235,7 +235,6 @@
 
 
         <!-- link js-->
-        <script src="script.js"></script>
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -252,4 +251,3 @@
 @endsection
 
 
-   

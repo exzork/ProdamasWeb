@@ -28,8 +28,8 @@ Carousel Submission
         <tr>
             <td>{{$key + 1}}</th>
             <td>{{$carousel->nama}}</td>
-            <td><img src="{{ '../carouselProd/'. $carousel->foto }}" alt=""></td>
-            <td> 
+            <td><img src="{{ asset('/carouselProd/'. $carousel->foto) }}" alt=""></td>
+            <td>
                 <a href="{{ url('admin/edit-carousel/'.$carousel->id) }}" class="btn btn-info">Edit</a>
               <form action="{{ url('admin/delete-carousel/'.$carousel->id)}}" method="POST">
                   @csrf

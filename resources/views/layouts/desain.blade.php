@@ -26,7 +26,7 @@
     {{-- Animation --}}
     <link rel="stylesheet" href="{{ asset('css/hover.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/titleAnimation.css">
+    <link rel="stylesheet" href="{{asset('css/titleAnimation.css')}}">
     <link rel="stylesheet" href="{{ asset('css/social-color.css') }}">
     @yield('head')
     @hasSection('title')
@@ -97,7 +97,7 @@
     <div class="bg-iki">
         <nav class="navbar navbar-expand-lg navbar-dark bg-kediri sticky-top" style="font-family: Inter; background-color: #4d148c">
             <div class="container-fluid mx-xxl-5">
-                <a href="{{ url('/') }}"><img src="https://prodamasdev.kedirikota.go.id/img/logoprodamas.png" alt="" class="d-inline-block align-text-top" width="40" height="40" /></a>
+                <a href="{{ url('/') }}"><img src="https://prodamas.kedirikota.go.id/img/logoprodamas.png" alt="" class="d-inline-block align-text-top" width="40" height="40" /></a>
                 <a class="navbar-brand ms-2" href="{{ url('/') }}" style="font-family: Inter">PRODAMAS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

@@ -24,7 +24,7 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
             <!--CSS-->
-            <link rel="stylesheet" href="css/informasi.css">
+            <link rel="stylesheet" href="{{asset('css/informasi.css')}}">
         </head>
 
         <body>
@@ -45,7 +45,7 @@
                 <div class="border">
                     <p id="visi">Visi :</p>
                         <p id="isi-visi"> Kota Kediri  unggul dan makmur dalam harmoni.</p>
-                       <p id="visi">Misi  :</p> 
+                       <p id="visi">Misi  :</p>
                        <ul id="isi-misi">
                            <li>Mewujudkan tata kelola pemerintahan yang bersih, transparan dan berintegritas berorientasi pada  pelayanan prima dan teknologi informasi.</li>
                            <li>Mewujudkan SDM yang berkualitas dan berdaya saing berbasis nilai agama dan budaya.</li>
@@ -60,20 +60,20 @@
             <!--latar belakang-->
                 <h2> LATAR BELAKANG </h2>
                 <br>
-                    <p class="text">Berawal dari program Musrenbang, kemudian dievaluasi. Selama pelaksanaan Musrenbang ditemukan permasalahan utama yang menjadikan kurang optimalnya Musrenbang dalam mengakomodasi seluruh kepentingan masyarakat, yaitu adanya kenyataan bahwa APBD Kota Kediri memiliki keterbatasan untuk merealisasikan semua usulan masyarakat hasil Musrenbang sehingga perlu adanya skala prioritas pembangunan ditinjau dari segala segi.<span class="dots"> ...</span> 
+                    <p class="text">Berawal dari program Musrenbang, kemudian dievaluasi. Selama pelaksanaan Musrenbang ditemukan permasalahan utama yang menjadikan kurang optimalnya Musrenbang dalam mengakomodasi seluruh kepentingan masyarakat, yaitu adanya kenyataan bahwa APBD Kota Kediri memiliki keterbatasan untuk merealisasikan semua usulan masyarakat hasil Musrenbang sehingga perlu adanya skala prioritas pembangunan ditinjau dari segala segi.<span class="dots"> ...</span>
                     <br><br>
-                    <span class="moreText"> Abdullah Abu Bakar, SE., Wakil Walikota Kediri yang menjadi salah satu kandidat Calon Walikota Kediri periode 2014 – 2019 waktu itu, menawarkan 
-                        sebuah konsep pembangunan yang langsung menyentuh pada satuan sistem sosial masyarakat terkecil di kelurahan, yaitu Rukun Tetangga (RT) sebagai 
-                        basis utama. Dalam konsep pembangunan tersebut RT diberikan ruang untuk menggelar musyawarah warga RT (rembug warga) guna menentukan dan mengajukan 
-                        usulan kebutuhan pembangunan di lingkungannya, dan Pemerintah Kota Kediri akan mengalokasikan secara khusus anggaran per RT pada APBD Kota Kediri 
+                    <span class="moreText"> Abdullah Abu Bakar, SE., Wakil Walikota Kediri yang menjadi salah satu kandidat Calon Walikota Kediri periode 2014 – 2019 waktu itu, menawarkan
+                        sebuah konsep pembangunan yang langsung menyentuh pada satuan sistem sosial masyarakat terkecil di kelurahan, yaitu Rukun Tetangga (RT) sebagai
+                        basis utama. Dalam konsep pembangunan tersebut RT diberikan ruang untuk menggelar musyawarah warga RT (rembug warga) guna menentukan dan mengajukan
+                        usulan kebutuhan pembangunan di lingkungannya, dan Pemerintah Kota Kediri akan mengalokasikan secara khusus anggaran per RT pada APBD Kota Kediri
                         untuk mewujudkan usulan tersebut. <br><br>
-                        Setelah beliau terpilih sebagai Walikota Kediri tahun 2014, segera konsep pembangunan tersebut diterapkan secara resmi dengan nama 
-                        Program Pemberdayaan Masyarakat (Prodamas), yaitu sebuah program pembangunan berbasis RT yang meliputi pembangunan bidang infrastruktur, 
-                        sosial dan ekonomi, dengan besar anggaran (2014 – 2019) Rp. 50 Juta / RT yang dialokasikan pada APBD Kota Kediri. Dalam periode ke – 2, 
-                        Walikota Kediri, Abdullah Abu Bakar, SE., menetapkan kenaikan anggaran Prodamas menjadi Rp. 100 Juta / RT, dengan penambahan cakupan pada bidang 
+                        Setelah beliau terpilih sebagai Walikota Kediri tahun 2014, segera konsep pembangunan tersebut diterapkan secara resmi dengan nama
+                        Program Pemberdayaan Masyarakat (Prodamas), yaitu sebuah program pembangunan berbasis RT yang meliputi pembangunan bidang infrastruktur,
+                        sosial dan ekonomi, dengan besar anggaran (2014 – 2019) Rp. 50 Juta / RT yang dialokasikan pada APBD Kota Kediri. Dalam periode ke – 2,
+                        Walikota Kediri, Abdullah Abu Bakar, SE., menetapkan kenaikan anggaran Prodamas menjadi Rp. 100 Juta / RT, dengan penambahan cakupan pada bidang
                         pendidikan, kesehatan dan kepemudaan serta penyebutan program menjadi Program Pemberdayaan Masyarakat Plus (Prodamas Plus).</span></p>
                     <button class="read-more-btn">Selengkapnya</button>
-    
+
             <!--SEKTOR-->
                 <div class="bordersektor">
                     <div col>

@@ -6,6 +6,7 @@ use App\Models\SettingCarousel;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
 
 class SettingCarouselController extends Controller
 {
@@ -49,7 +50,8 @@ class SettingCarouselController extends Controller
             $file = $request->file('foto');
             if ($file->isValid()) {
                 $foto = round(microtime(true) * 1000) . '-' . str_replace(' ', '-', $file->getClientOriginalName());
-                $file->move(public_path('../carouselProd/'), $foto);
+                //$file->move(public_path('../carouselProd/'), $foto);
+                $file->storeAs('carouselProd',$foto);
                 $files[] = [
                     'nama' => strtoupper($request->nama),
                     'foto' => $foto
@@ -97,15 +99,16 @@ class SettingCarouselController extends Controller
         $request->validate([
             'nama' => 'required',
             'foto' => 'image|max:1024',
-        
-        ]); 
+
+        ]);
         $files = [];
         if ($request->file('foto')) {
             File::delete("carouselProd/" . $carousel->foto);
             $file = $request->file('foto');
             if ($file->isValid()) {
                 $foto = round(microtime(true) * 1000) . '-' . str_replace(' ', '-', $file->getClientOriginalName());
-                $file->move(public_path('../carouselProd/'), $foto);
+                //$file->move(public_path('../carouselProd/'), $foto);
+                $file->storeAs('carouselProd',$foto);
                 $files = [
                     'nama' => strtoupper($request->nama),
                     'foto' => $foto

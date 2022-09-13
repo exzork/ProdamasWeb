@@ -106,7 +106,7 @@ Route::post('/test123', [TestregistController::class, 'store']);
 
 Route::group(['middleware' => 'auth'], function () { //agar tidak dapat tampil menggunakan linknya
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
-    Route::get('/profil/{id}/edit', [ProfilController::class, 'index']);
+    Route::get('/profil/{id}/edit', [EditProfilController::class, 'index']);
 
     //artikel admin
     Route::get('/admin/add-article', [ArticleController::class, 'create']);

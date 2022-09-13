@@ -4,7 +4,7 @@
 
 <!--CSS-->
 @section('head')
-    <link rel="stylesheet" href="css/tuliscerita.css">
+    <link rel="stylesheet" href="{{asset('css/tuliscerita.css')}}">
 @endsection
 
 @section('content')
